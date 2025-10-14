@@ -1,7 +1,7 @@
 // --- 1. Global Variables and Initial Data Setup ---
 
 const ADMIN_USER = 'gopal@123';
-const ADMIN_PASS = 'gopal22@22'; // Admin login credentials
+const ADMIN_PASS = 'mule22@22'; // Admin login credentials
 const DEFAULT_Q_COUNT = 40;
 const DEFAULT_Q_TIME_SEC = 900; // 15 minutes (15 * 60)
 const Q_MARK = 1;
@@ -332,4 +332,5 @@ document.getElementById('clear-data-btn').addEventListener('click', () => {
 });
 
 // Initial load: show home screen
+
 showScreen('home-screen');
